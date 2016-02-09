@@ -2,7 +2,7 @@
   var app = angular.module('gemStore', ['store-directives']);
 
 app.controller('StoreController', function(){
-  store.products = gems;
+  this.products = gems;
 });
    
   app.controller('ReviewController', function() {
